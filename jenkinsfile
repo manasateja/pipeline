@@ -7,5 +7,10 @@ pipeline {
                 echo 'i'm validating'
             }
         }
+        stage('compile'){
+        steps{
+        echo 'i'm compiling'
+        }
+        }
     }
-}
+
